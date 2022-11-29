@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Мой первый сайт в стиле Параллакс</title>
+	<link rel="stylesheet" href="css/main.css">
+	<script src="libs/gsap/gsap.min.js" defer></script>
+	<script src="libs/gsap/ScrollTrigger.min.js" defer></script>
+	<script src="libs/gsap/ScrollSmoother.min.js" defer></script>
+	<script src="js/app.js" defer></script>
+</head>
+<body>
+
+    <audio id="forest">
+        <source src="audio/forest.mp3" type="mpeg">
+    </audio>
+    <audio src="audio/forest.mp3" autoplay="autoplay"></audio>
+	<div class="wrapper">
+		<div class="content">
+			<header class="main-header">
+				<div class="layers">
+					<div class="layer__header">
+						<div class="layers__caption">Добро пожаловать в мой проект</div>
+						<div class="layers__title">Parallax Forest</div>
+					</div>
+					<div class="layer layers__base" style="background-image: url(img/layer-base.png);"></div>
+					<div class="layer layers__middle" style="background-image: url(img/layer-middle.png);"></div>
+					<div class="layer layers__front" style="background-image: url(img/layer-front.png);"></div>
+				</div>
+			</header>
+
+			<article class="main-article" style="background-image: url(img/dungeon.jpg);">
+				<div class="main-article__content">
+					<h2 class="main-article__header">Hello World!</h2>
+					<p  class="main-article__paragraph">Этот мой первый сайт на HTML, JS и CSS!</p>
+				</div>
+				<div class="copy">Выполнил Солин Александр, студент 428 группы РФ</div>
+				<div class="mail">Связаться со мной: i@asolin.ru</div>
+				<div class="palka">|||</div>
+				<div class="vk">Я <a href="https://vk.com/lublupivo37">Вконтакте</a></div>
+			</article>
+		</div>
+</div>
+</body>
+</html>
